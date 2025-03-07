@@ -1,2 +1,5 @@
 # DEAP preprocessed Python dataset
 eeg_emotion_data/
+
+# has Python 3.11.9 to run tensorflow
+.venv/
