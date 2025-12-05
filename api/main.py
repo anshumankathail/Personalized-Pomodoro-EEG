@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.model import predict
-from app.schemas import EEGInput, PredictionOutput
+from api.model import predict
+from api.schemas import EEGInput, PredictionOutput
 
 app = FastAPI()
 
